@@ -1,0 +1,64 @@
+a{
+	text-decoration: none;
+}
+
+footer a{
+	text-decoration: none;
+	color: white;
+}
+
+header a{
+	text-decoration: none;
+	color: white;
+}
+
+.box-adm h4{
+	margin: 5px;
+}
+
+.box-adm p{
+	margin-bottom: 10px;
+	font-size: 0.8em;
+	padding: 5px;
+	line-height: 1.3em;
+
+}
+
+
+.container h4{
+	margin: 3px;
+	font-size: 0.8em;
+}
+
+.container h3{
+	margin: 5px;
+}
+
+.text-left {
+	line-height: 1em;
+}
+
+.a-red{
+	color: red;
+}
+
+.container-LightGrey p{
+	margin: 5px;
+}
+
+.container-LightGrey h2{
+	margin: 5px;
+}
+
+.dv-header h2{
+	color: white;
+}
+
+.box-adm-produtos p{
+	margin: 10px;
+}
+
+
+.box-adm-produtos h4{
+	margin: 10px;
+}

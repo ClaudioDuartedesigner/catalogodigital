@@ -1,0 +1,45 @@
+.img-mini{
+	width: 50px;
+
+}
+
+.img-box-categoria{
+	margin-bottom: 5px;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 15px;
+}
+
+
+.img-box-categoria-2{
+	margin-bottom: 5px;
+	width: 100%;
+    height: 200px;
+	object-fit: cover;
+	border-radius: 15px;
+	
+}
+
+.img-box-produtos{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 15px;
+	
+}
+
+
+.img-social{
+	margin: 10px;
+	width: 50px;
+}
+
+.img-box-categoria-detalhes{
+	margin-bottom: 5px;
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 15px;
+}

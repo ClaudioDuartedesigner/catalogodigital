@@ -1,0 +1,132 @@
+@import "img.css";
+@import "buttons.css";
+@import "text.css";
+@import "forms.css";
+
+
+
+*{
+	font-family: roboto;
+	padding: 0px;
+	margin: 0px;
+}
+
+header, footer{
+	background-color: darkblue;
+	color: white;
+	width: 100%;
+	
+}
+
+main{
+	min-height: 400px;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	flex-flow: wrap;
+	padding: 20px;
+    align-items: center;
+}
+
+.container2{
+	display: flex;
+	justify-content: center;
+}
+
+.container-Silver{
+	display: flex;
+	justify-content: center;
+	flex-flow: wrap;
+	padding: 20px;
+    align-items: center;
+    background-color: Silver;
+}
+
+.container-itens{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	flex-flow: wrap;
+    align-items: center;
+}
+
+.container-Yellow{
+	display: flex;
+	justify-content: center;
+	flex-flow: wrap;
+    align-items: center;
+    background-color: Yellow;
+}
+
+.container-Red{
+	display: flex;
+	justify-content: center;
+	flex-flow: wrap;
+    align-items: center;
+    background-color: red;
+    color: white;
+}
+
+
+.dv-header{
+	margin: 5px;
+	justify-content: space-around;
+	vertical-align: center;
+}
+
+.box-text{
+	margin: 5px auto;
+	vertical-align: center;
+	text-align: center;
+}
+
+.box-adm{
+	width: 100px;
+	margin: 15px;
+	justify-content: space-around;
+	vertical-align: center;
+	text-align: center;
+
+	border-radius: 10px;
+}
+
+
+.box-adm-produtos{
+	width: 300px;
+	margin: 15px;
+	justify-content: space-around;
+	vertical-align: center;
+	text-align: center;
+	border-radius: 10px;
+	background-color: white;
+	padding: 5px;
+}
+
+
+.box-adm-home{
+
+	width: 150px;
+	margin: 15px;
+	justify-content: space-around;
+	vertical-align: center;
+	text-align: center;
+	border-radius: 10px;
+}
+
+
+.box-adm-itens{
+	width: 300px;
+	justify-content: space-around;
+	margin: 3px;
+	vertical-align: center;
+	text-align: left;
+	border-radius: 10px;
+
+}
+
+.box-itens{
+}
+
+

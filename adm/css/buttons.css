@@ -1,0 +1,68 @@
+.bt-confirm, .bt-access, .bt-edit, .bt-delete{
+	margin: 1px;
+	margin-bottom: 15px;
+	padding: 8px;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	outline: none;
+	cursor: pointer;
+	box-shadow: 0px 5px 2px DarkGray;
+}
+
+
+
+.bt-access-medium{
+	width: 150px;
+	margin: 5px;
+	margin-bottom: 10px;
+	padding: 8px;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	outline: none;
+	cursor: pointer;
+	background-color: blue;
+	box-shadow: 2px 3px 2px DarkGray;
+}
+
+.bt-confirm{
+	background-color: green;
+}
+
+
+.bt-access{
+	background-color: blue;
+}
+
+.bt-edit{
+	background-color: DarkOrange;
+}
+
+.bt-delete{
+	background-color: red;
+}
+
+.bt-delete-x{
+	background-color:red;
+	color: white;
+	border: none;
+	border-radius: 100px;
+	outline: none;
+	padding: 5px;
+
+}
+
+.bt-ok{
+	padding: 7px;
+	background-color: green;
+	color: white;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+
+.bt-ok:hover{
+
+	background-color: black;
+}

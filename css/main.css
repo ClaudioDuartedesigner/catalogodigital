@@ -1,0 +1,167 @@
+@import "buttons.css";
+@import "forms.css";
+@import "text.css";
+@import "imagens.css";
+
+:root {
+	--principal: darkblue;
+	--sombras: blue;
+	--texto-principal: white;
+	--box: white;
+}
+
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: roboto;
+}
+
+header, footer{
+	background-color: var(--principal);
+	padding: 10px;
+	color: var(--texto-principal);
+	text-align: center;
+
+}
+
+header, footer a{
+	text-decoration: none;	
+	color: var(--texto-principal);
+}
+
+header{
+	box-shadow: 0px 5px 2px var(--sombras);
+}
+
+
+footer{
+	box-shadow: 0px -5px 2px var(--sombras);
+}
+
+header a{
+	text-decoration: none;	
+	color: var(--texto-principal);
+}
+.container, .container-SlateBlue, .container-Silver, .container-darkblue, .container-Navy{
+	display: flex;
+	justify-content: center;
+	flex-flow: wrap;
+	padding: 10px;
+}
+
+.container-Darkblue{
+	background-color: darkblue;
+	color: white;
+	border-top: double;
+	border-bottom: double;
+	border-width: 10px;
+}
+
+.container-Navy{
+	background-color: Navy;
+	color: white;
+	border-bottom: 3px solid orange;
+	
+	
+}
+
+.container-lightgray{
+	background-color: lightgray;
+
+	
+}
+
+
+.container-Silver{
+	background-color: Silver;
+}
+
+.container-SlateBlue{
+	background-color: SlateBlue;
+}
+
+
+.dv-header{
+	margin: 2px;
+	height: 50px;
+	justify-content: space-around;
+	vertical-align: center;
+	color: white;
+}
+
+
+.box{
+	width: 100px;
+	margin: 15px;
+	justify-content: space-around;
+	vertical-align: center;
+	text-align: center;
+	background-color: var(--box);
+	border-radius: 10px;
+}
+
+.box-produtos{
+	width: 300px;
+	height: 390px;
+	margin: 15px;
+	justify-content: space-around;
+	vertical-align: center;
+	text-align: center;
+	background-color: var(--box);
+	
+}
+
+.box-divulga{
+	width: 300px;
+	height: 300px;
+	margin: 15px;
+	justify-content: space-around;
+	vertical-align: center;
+	text-align: center;
+	background-color: var(--box);
+	
+}
+
+.box-produtos-content{
+	height: 330px;
+}
+
+.box-detalhes{
+	width: 350px;
+	margin: 20px;
+	text-align: center;
+}
+
+.container-duart{
+	padding: 10px;
+	border: none;
+	width: 100%;
+}
+
+.box-social{
+	padding: 10px;
+	text-align: center;
+}
+
+.dvpesquisa input{
+	height: 25px;
+	border: 2px solid orange;
+	border-radius: 10px;
+	background-color: white
+	padding:15px;
+	outline: none;
+}
+
+.dvpesquisa input[type=submit] {
+	width: 50px;
+	background-color: darkblue;
+	color: white;
+	outline: none;
+	border: none;
+
+}
+
+.dvpesquisa input[type=submit]:hover {
+	background-color: black;
+	
+}

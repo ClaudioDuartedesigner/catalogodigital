@@ -1,0 +1,105 @@
+.box h4 {
+	margin: 5px; 
+	font-size: 0.8em;
+}
+
+
+.box p {
+	margin-bottom: 10px;
+	font-size: 0.8em;
+	padding: 5px;
+	line-height: 1.3em;
+
+}
+
+
+.box h3{
+	margin: 5px;
+}
+
+footer h3{
+	font-size: 1.2em;
+	margin: 10px;
+}
+
+footer p{
+	font-size: 1em;
+	margin: 10px;	
+}
+
+
+.creditos-duart{
+	color: lightblue;
+	font-size: 0.7em;
+	margin-top: 30px;
+}
+
+
+.text-left{
+	text-align: left;
+	margin: 10px;
+	line-height: 0.9em;
+}
+
+.box-detalhes h2{
+	color: blue;
+	padding: 10px;
+	font-size: 1.8em;
+}
+
+.box-detalhes h3{
+	padding: 10px;
+	font-size: 1em;
+}
+
+.box-detalhes h4{
+	color: red;
+	padding: 10px;
+	font-size: 1.8em;
+}
+
+.box-detalhes h5{
+	color: blue;
+	padding: 5px;
+	font-size: 1.4em;
+}
+
+.box-itenssub p{
+	line-height: 0.5em;
+	margin: 2px;
+	padding: 2px;
+
+}
+
+
+.text-left{
+	text-align: left;
+	margin: 15px;
+	line-height: 1.2em;
+
+}
+
+.text-justify{
+    text-align: justify;
+    line-height: 1.4em;
+    font-size: 1.2em;
+    font-family: roboto;
+    text-indent: 1.2em;
+    padding: 10px;
+}
+
+.text-preco{
+    margin: 10px;
+    font-size: 1.2em;
+    color: blue;
+}
+
+.box-produtos p{
+	margin: 10px;
+	font-size: 0.9em;
+}
+
+.box-produtos h4{
+	font-size: 1.2em;
+	color: Darkblue;
+}

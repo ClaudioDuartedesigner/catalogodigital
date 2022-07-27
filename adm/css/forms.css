@@ -1,0 +1,174 @@
+
+.dv-form{
+	width: 350px;
+	margin: 10px;
+	background-color: Gainsboro;
+	padding: 20px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.dv-form input{
+	
+	padding: 5px;
+	margin: 5px;
+	width: 330px;
+	height: 40px;
+	border-top: none;
+	border: none;
+	border: 2px solid silver;
+	border-radius: 10px;
+	outline: none;
+	background-color: white;
+	text-align: center;
+	font-size: 0.9em;
+}
+
+.dv-form select{
+	
+	padding: 5px;
+	margin: 5px;
+	width: 98%;
+	height: 30px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+}
+
+.title-form, .title-form-alert{
+	font-weight: 500;
+	font-size: 1.5em;
+	margin-bottom: 15px;
+	background-color: RoyalBlue;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+}
+
+
+.title-form-alert{
+	background-color: red;
+
+}
+
+.dv-form label{
+	font-weight: 400;
+	padding: 5px;
+
+
+}
+
+.dv-form select{
+	
+	padding: 5px;
+	margin: 5px;
+
+}
+
+
+.dv-form textarea{
+	resize: none;
+	padding: 5px;
+	margin: 5px;
+	border: 2px solid Silver;
+	border-radius: 10px;
+	width: 330px;
+}
+
+.dv-inputtext{
+
+	background-color: white;
+	padding: 5px;
+	margin: 5px;
+	width: 98%;
+	line-height: 30px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+}
+
+.dv-query-simple{
+	width: 50%;
+	margin: 20px;
+	background-color: LightSteelBlue;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.dv-query-simple table{
+	width: 100%;
+	background-color: white;
+	line-height: 30px;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 10px 0px 10px 0px;
+}
+.dv-query-simple table:hover{
+	background-color: Lavender;
+
+}
+
+.dv-box-msg{
+	background-color: red;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+
+input[type="radio"] + label{
+	padding: 5px 20px;
+}
+
+input[type="radio"]{
+	display: none;
+}
+
+input[type="file"] { 
+   height: 40px; 
+   background-color:Silver; 
+}
+
+#yes + label{
+	border-radius: 100px 0px 0px 100px;
+	margin: 0px;
+	background-color: #D8D8D8;
+}
+
+#yes:checked + label{
+	background-color: green;
+	color: white;
+}
+
+
+#no + label{
+	border-radius: 0px 100px 100px 0px;
+	margin: 0px;
+	background-color: #D8D8D8;
+}
+
+
+#no:checked + label{
+	background-color: red;
+}
+
+
+.form-itens{
+	
+
+}
+
+.form-itens input{
+	height: 30px; 
+	border: none;
+	padding: 2px;
+	margin: 2px;
+	background-color: Gainsboro;
+	border-radius: 5px;
+}
+
+
+.input-valor{
+ 	width: 40px;
+}
